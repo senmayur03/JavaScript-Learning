@@ -25,25 +25,25 @@
 // printWord(printWord("Hello"))
 // printWord(printWord("World"))
 
-var names = ["Hole in one!", "Albatross", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Triple Bogey"]
+// var names = ["Hole in one!", "Albatross", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Triple Bogey"]
 
-function golfScore(par, strokes) {
-    var difference = strokes - par
-    var offsetDiff = difference + 4
+// function golfScore(par, strokes) {
+//     var difference = strokes - par
+//     var offsetDiff = difference + 4
 
-    if (strokes == 1) {
-        console.log(names[0])
-    }
-    else if(strokes < 1) {
-        console.log("Impossible")
-    }
-    else if (difference > 3){
-        console.log("+" + difference)
-    }
-    else if (offsetDiff < 1){
-        console.log(difference)
-    }
-    else {
-        console.log(names[offsetDiff])
-    }
-}
+//     if (strokes == 1) {
+//         console.log(names[0])
+//     }
+//     else if(strokes < 1) {
+//         console.log("Impossible")
+//     }
+//     else if (difference > 3){
+//         console.log("+" + difference)
+//     }
+//     else if (offsetDiff < 1){
+//         console.log(difference)
+//     }
+//     else {
+//         console.log(names[offsetDiff])
+//     }
+// }
